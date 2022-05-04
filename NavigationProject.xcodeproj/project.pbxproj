@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE4D266028230F9C0092BF17 /* FirstFlatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4D265F28230F9C0092BF17 /* FirstFlatViewController.swift */; };
+		BE4D266228230FAB0092BF17 /* SecondFlatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4D266128230FAB0092BF17 /* SecondFlatViewController.swift */; };
 		BE5A1236282003940002C8B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5A1235282003940002C8B4 /* AppDelegate.swift */; };
 		BE5A1238282003940002C8B4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5A1237282003940002C8B4 /* SceneDelegate.swift */; };
 		BE5A123A282003940002C8B4 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5A1239282003940002C8B4 /* RootViewController.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BE4D265F28230F9C0092BF17 /* FirstFlatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstFlatViewController.swift; sourceTree = "<group>"; };
+		BE4D266128230FAB0092BF17 /* SecondFlatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondFlatViewController.swift; sourceTree = "<group>"; };
 		BE5A1232282003940002C8B4 /* NavigationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE5A1235282003940002C8B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE5A1237282003940002C8B4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -176,6 +180,8 @@
 		BE5A127328205E990002C8B4 /* Flat Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				BE4D265F28230F9C0092BF17 /* FirstFlatViewController.swift */,
+				BE4D266128230FAB0092BF17 /* SecondFlatViewController.swift */,
 				BE5A127128205E950002C8B4 /* ThirdFlatViewController.swift */,
 			);
 			path = "Flat Navigation";
@@ -325,7 +331,9 @@
 				BE5A127D282085070002C8B4 /* Dog.swift in Sources */,
 				BE5A1240282003940002C8B4 /* NavigationProject.xcdatamodeld in Sources */,
 				BE5A1279282073520002C8B4 /* BViewController.swift in Sources */,
+				BE4D266228230FAB0092BF17 /* SecondFlatViewController.swift in Sources */,
 				BE5A1236282003940002C8B4 /* AppDelegate.swift in Sources */,
+				BE4D266028230F9C0092BF17 /* FirstFlatViewController.swift in Sources */,
 				BE5A1238282003940002C8B4 /* SceneDelegate.swift in Sources */,
 				BE5A1269282052740002C8B4 /* FirstHierarchicalViewController.swift in Sources */,
 				BE5A127B282073680002C8B4 /* CViewController.swift in Sources */,
